@@ -3,28 +3,117 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>HTML Layout</title>
+    <title>Food Information</title>
+    <link href = "외부link.css" rel="stylesheet" type = "text/css">
+
 </head>
 
 <body>
-    <header>
-        <h1>
-            #사이트 제목
-        </h1>
+    <header style = "background-color: rgb(167, 241, 167); ">
+        <div class = "paras-login">
+            <a href = "" style = "text-decoration: none;">
+                고객센터
+                </a>
+        </div>
+        <div class = "paras-login">
+            <a href = "" style = "text-decoration: none;">
+                회원가입
+                </a>
+        </div>
+        <div class = "paras-login">
+            <a href = "" style = "text-decoration: none;">
+                로그인
+                </a>
+        </div>
+        <div style = "float : left; font-size: 30px; width : 600px; margin-top:20px">
+            <a href = "과제1.html" style = "text-decoration: none; color : black; font-family:cursive ; ">Food information</a>
+        </div>
+
+        <div>
+            <br>
+            <input type = "text" placeholder="검색어 입력" class = "paras-search" style = "margin-top:-10px; margin-bottom: 10px;" >
+        </div>
+
     </header>
-
-    <nav>
-        <a href =""> 한식</a>
-        <a href =""> 중식</a>
-        <a href =""> 일식</a>
-        <a href =""> 양식</a>
-    </nav>
+    <br>
+    <div class = "paras-nav" >
+        <a href = "" class = "paras-nav1 "  > 카테고리 </a> 
+        <!-- 여기에 아코디언 추가해야함(한식, 중식, 양식, 일식, 디저트, 음료 등)    -->
+    </div>
+    <div class = "paras-nav" >
+        <a href = "" class = "paras-nav1 "  > 맛집 </a>  
+    </div>
+    <div class = "paras-nav" >
+        <a href = "" class = "paras-nav1"  > 식품영양정보 </a>  
+    </div>
+    <div class = "paras-nav" >
+        <a href = "" class = "paras-nav1"  > #더 추가할 예정 </a>  
+    </div><br><br><br>
     
-    <article>
-        #본문
-    </article>
+    <section>
+        <div class = "paras-aside" >
+            <a href = "" style = "text-decoration: none; color:black;" >음식투표 </a>
+        </div>
 
-    <footer>
-        #푸터
+        <div class = "paras-main">  HOT한 음식 <br>
+            <div class ="paras-submain" >
+                <img src = "마라탕.jpg" class = "paras-image" alt="사진이 없습니다">
+                마라탕
+            </div>
+            <div class ="paras-submain" >
+                <img src = "치킨.jpg" class = "paras-image" alt="사진이 없습니다">
+                치킨
+            </div>
+            <div class ="paras-submain" >
+                <img src = "떡볶이.jpg" class = "paras-image" alt="사진이 없습니다">
+                떡볶이
+            </div>
+            <div class ="paras-submain" >
+                <img src = "냉면.jpg" class = "paras-image" alt="사진이 없습니다">
+                냉면
+            </div>
+            <div class ="paras-submain" >
+                <img src = "파이브 가이즈.jpg" class = "paras-image" alt="사진이 없습니다">
+                파이브 가이즈
+            </div>
+        </div>
+        
+        
+        
+       <div class = "paras-aside" >
+            <a href = "" style = "text-decoration: none; color:black;" >기타 </a>
+        </div>
+        <div class = "paras-main"><br>
+            <div class = "paras-submain">
+                <img src = "삼겹살.jpg" class = "paras-image" alt="사진이 없습니다">
+                삼겹살
+            </div>
+            <div class = "paras-submain">
+                <img src = "피자.jpg" class = "paras-image" alt="사진이 없습니다">
+                피자
+            </div>
+            <div class = "paras-submain">
+                <img src = "스시.jpg" class = "paras-image" alt="사진이 없습니다">
+                스시
+            </div>
+            <div class = "paras-submain">
+                <img src = "짜장면.jpg" class = "paras-image" alt="사진이 없습니다">
+                짜장면
+            </div>
+            <div class = "paras-submain">
+                <img src = "족발.jpg" class = "paras-image" alt="사진이 없습니다">
+                족발
+            </div>
+        </div>
+        
+    </section>
+    <footer style = "background-color: lightgray;">
+        <nav>
+            <a href='https://github.com/Hwangchanjin' target = '_blank'> github</a>
+            <a href='https://blog.naver.com/slo0521' target = '_blank'> blog</a>
+        </nav>
+            만든이: JIN<br>
+            e-mail: slo0521@naver.com<br>
+            Copyright 2023. jin. ALL RIGHTS RESERVED
     </footer>
 </body>
